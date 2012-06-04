@@ -1,0 +1,13 @@
+body {
+    margin-top: 10px;
+}
+
+#logo {
+    display:block;
+    width:360px;
+    height:57px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-image:url(../img/logo.png);
+}

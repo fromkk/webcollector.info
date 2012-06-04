@@ -156,7 +156,7 @@
         
         protected function _($name, $feature_name = null) {
             if (! isset($this->assign[$name])) {
-                trigger_error('Assign not found:' . $name, E_USER_WARNING);
+                //trigger_error('Assign not found:' . $name, E_USER_WARNING);
                 return null;
             }
             
