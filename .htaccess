@@ -1,0 +1,8 @@
+RewriteEngine on
+#AtFramework
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*).html$ index.php?action=$1 [QSA,NC,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ index.php?action=$1/index [QSA,NC,L]
